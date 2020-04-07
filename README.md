@@ -2,7 +2,7 @@
 
 华为云存储 OBS PHP SDK
 
-- 去除基于 monolog 日志组件提供的日志功能。请阅读 日志配置。
+- 去除基于 monolog 日志组件提供的日志功能。
 - 去除 composer。
 
 ## 日志配置
