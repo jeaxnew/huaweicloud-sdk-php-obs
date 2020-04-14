@@ -21,7 +21,7 @@ use Obs\Log\ObsLog;
 use Obs\Internal\Common\SdkCurlFactory;
 use Obs\Internal\Common\SdkStreamHandler;
 use Obs\Internal\Common\Model;
-use MoCloud\Logger;
+use Obs\Log\Logger;
 use GuzzleHttp\Client;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Handler\CurlHandler;
@@ -29,7 +29,6 @@ use GuzzleHttp\Handler\CurlMultiHandler;
 use GuzzleHttp\Handler\Proxy;
 use GuzzleHttp\Promise\Promise;
 use Obs\Internal\Resource\Constants;
-
 
 define('DEBUG', Logger::DEBUG);
 define('INFO', Logger::INFO);
