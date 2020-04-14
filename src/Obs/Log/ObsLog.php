@@ -17,8 +17,6 @@
 
 namespace Obs\Log;
 
-use MoCloud\Logger;
-
 class ObsLog extends Logger{
     public static $log;
     

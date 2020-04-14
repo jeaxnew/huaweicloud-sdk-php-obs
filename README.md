@@ -7,7 +7,7 @@
 
 ## 日志配置
 
-日志功能默认是关闭的，需要主动开启。如需日志功能，请在 MoCloud\Logger->addRecord 中自行更改，默认不做任何处理。并通过 ObsClient->initLog 开启日志功能并进行配置。
+日志功能默认是关闭的，需要主动开启。如需日志功能，请在 Obs\Log\Logger->addRecord 中自行更改，默认不做任何处理。并通过 ObsClient->initLog 开启日志功能并进行配置。
 
 ```php
 <?php

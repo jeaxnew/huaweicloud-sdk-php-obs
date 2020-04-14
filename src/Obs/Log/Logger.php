@@ -5,7 +5,7 @@
  * @link: www.xinby.cn
  * @create: 2020/4/7 0:28
  */
-namespace MoCloud;
+namespace Obs\Log;
 
 class Logger{
     const DEBUG = 100;
